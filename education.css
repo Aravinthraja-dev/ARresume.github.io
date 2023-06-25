@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    height: 80px;
+    width: 100%;
+    background-color: #abb8c3;
+}
+article{
+    float: left;
+}
+header .head{
+    padding: 9px 0 0 180px;
+    height: 20px;
+    width: 40px;
+}
+.raja{
+    color: #fcb900;
+    font-style: italic;
+    padding: 0 0 0 0;
+}
+header .navibar{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 20px 10px 0 0;
+    position: relative;
+    left: 320px;
+    top: 10px;
+}
+header .cv button{
+    padding: 10px;
+    background-color: #fcb900;
+    color: white;
+    position: relative;
+    left: 380px;
+    border-radius: 5px;
+    border-color: #fcb900;
+    top: 12px;
+    height: 50px;
+    width: 120px;
+    font-weight: 700;
+}
+header .cv button:hover{
+    height: 60px;
+    width: 130px;
+}
+header .navibar a{
+    text-decoration: none;
+    padding: 30px;
+    color: black;
+}
+header .navibar a:hover{
+    color: #f9c349;
+}
+header article a{
+    text-decoration: none;
+    color: white;
+}
+main{
+    height: 500px;
+    width: 100%;
+    padding-top: 50px;
+}
+main .profileimg img{
+    height: 450px;
+    width: 400px;
+    border-top-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    float: left;
+    position: relative;
+    left: 200px;
+    
+}
+main .details{
+    float: right;
+    height: 400px;
+    width: 550px;
+    position: relative;
+    right: 300px;
+}
+main .details .college h2{
+    color: #f9c349;
+}
+main .details .school h2{
+    color: #f9c349;
+    padding-top: 10px;
+}
+main .details .college ul{
+    list-style-type: none;
+    padding-top: 10px;
+    line-height: 25px;
+    text-align: justify;
+}
+main .details .school ul{
+    list-style-type: none;
+    padding-top: 10px;
+    line-height: 25px;
+    text-align: justify;
+}
+main .details .skills h1{
+    color: #f9c349;
+    padding-top: 10px;
+}
+main .details .skills ul{
+    line-height: 25px;
+    padding-top: 10px;
+    text-align: justify;
+}
+footer{
+    height: 50px;
+    width: 100%;
+    clear: both;
+    background-color: #abb8c3;
+}
+footer p{
+    text-align: center;
+    padding-top: 15px;
+}
